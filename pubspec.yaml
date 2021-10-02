@@ -1,6 +1,6 @@
 name: semantic_announcement_tester
 description: This package provides a set of matchers that make testing semantic announcements made using SemanticsService.announce dead simple.
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/abhaysood/semantic_announcement_tester
 repository: https://github.com/abhaysood/semantic_announcement_tester
 
