@@ -29,7 +29,7 @@ class _HasSemanticsAnnouncementMatcher extends Matcher {
     if (expectedEvents.length != events.length) {
       return false;
     }
-    for (int i = 0; i < expectedEvents.length - 1; i++) {
+    for (int i = 0; i < expectedEvents.length; i++) {
       if (!mapEquals(expectedEvents[i].getDataMap(), events[i].getDataMap())) {
         return false;
       }
